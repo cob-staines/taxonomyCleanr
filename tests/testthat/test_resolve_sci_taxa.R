@@ -36,6 +36,7 @@ testthat::test_that('Output table is standardized', {
   check_output_table("Oncorhynchus tshawytscha", data.source = 3)
   check_output_table("Oncorhynchus tshawytscha", data.source = 9)
   check_output_table("Oncorhynchus tshawytscha", data.source = 11)
+  check_output_table("Rana sierrae", data.source = 118)
 
 })
 
